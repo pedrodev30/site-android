@@ -99,7 +99,7 @@ main img {
 
 main img.pequena {
   display: block;
-  width: 50%;
+  max-width: 350px;
   margin: auto;
 }
 
