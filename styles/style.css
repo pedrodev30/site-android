@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'Android';
-  src: url(../fonts/idroid.otf) format('opentype');
+  font-family: "Android";
+  src: url(../fonts/idroid.otf) format("opentype");
   font-weight: normal;
 }
 
@@ -17,12 +17,12 @@
   --cor4: #1a5c37;
   --cor5: #063d1e;
   --fonte-padrao: Arial, Helvetica, sans-serif;
-  --fonte-destaque: 'Bebas Neue', cursive;
-  --fonte-android: 'Android', cursive;
+  --fonte-destaque: "Bebas Neue", cursive;
+  --fonte-android: "Android", cursive;
 }
 
 body {
-  background-color: var(--cor0); 
+  background-color: var(--cor0);
   font-family: var(--fonte-padrao);
 }
 
@@ -38,7 +38,7 @@ header {
 }
 
 header > h1 {
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: var(--fonte-destaque);
   font-weight: normal;
   margin-bottom: 20px;
@@ -47,7 +47,7 @@ header > h1 {
 }
 
 header > p {
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 1.2rem;
   font-family: var(--fonte-padrao);
   max-width: 600px;
@@ -83,7 +83,7 @@ main {
   max-width: 1000px;
   margin: auto;
   margin-bottom: 30px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   padding: 20px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
   border-bottom-left-radius: 10px;
@@ -167,7 +167,7 @@ aside {
 
 aside > h3 {
   background-color: var(--cor4);
-  color: #FFFFFF;
+  color: #ffffff;
   padding: 10px;
   margin: -10px -10px 0 -10px;
   border-radius: 10px 10px 0 0;
@@ -181,14 +181,14 @@ aside > ul {
 
 footer {
   background-color: var(--cor5);
-  color: #FFFFFF;
+  color: #ffffff;
   text-align: center;
   font-size: 0.8em;
   padding: 5px;
 }
 
 footer a {
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: bolder;
   text-decoration: none;
 }
