@@ -4,6 +4,11 @@
   font-weight: normal;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   --cor0: #ebe5c5;
   --cor1: #83e1ad;
