@@ -5,11 +5,12 @@
 }
 
 :root {
-  --cor0: #c5ebd6;
+  --cor0: #ebe5c5;
   --cor1: #83e1ad;
   --cor2: #3ddc84;
   --cor3: #2fa866;
-  --cor4: #036d1e;
+  --cor4: #1a5c37;
+  --cor5: #063d1e;
   --fonte-padrao: Arial, Helvetica, sans-serif;
   --fonte-destaque: 'Bebas Neue', cursive;
   --fonte-android: 'Android', cursive;
@@ -17,4 +18,19 @@
 
 body {
   background-color: var(--cor0); 
+  font-family: var(--fonte-padrao);
+}
+
+header > h1 {
+  color: var(--cor3);
+  font-family: var(--fonte-destaque);
+}
+
+main h1 {
+  color: var(--cor5);
+  font-family: var(--fonte-android);
+}
+
+main h2 {
+  font-family: var(--fonte-android);
 }
