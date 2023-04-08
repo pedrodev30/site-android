@@ -40,6 +40,7 @@ header {
 header > h1 {
   color: #FFFFFF;
   font-family: var(--fonte-destaque);
+  font-weight: normal;
   margin-bottom: 20px;
   font-size: 3em;
   text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.4);
@@ -91,10 +92,13 @@ main {
 main h1 {
   color: var(--cor5);
   font-family: var(--fonte-android);
+  font-weight: normal;
+  font-size: 1.8em;
 }
 
 main h2 {
   font-family: var(--fonte-android);
+  font-size: normal;
   color: var(--cor4);
   font-size: 1.3em;
   background-image: linear-gradient(to right, var(--cor1), transparent);
