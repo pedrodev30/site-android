@@ -20,6 +20,8 @@
   --fonte-padrao: Arial, Helvetica, sans-serif;
   --fonte-destaque: "Bebas Neue", cursive;
   --fonte-android: "Android", cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
