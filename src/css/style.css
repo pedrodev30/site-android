@@ -7,6 +7,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
@@ -19,11 +20,15 @@
   --fonte-padrao: Arial, Helvetica, sans-serif;
   --fonte-destaque: "Bebas Neue", cursive;
   --fonte-android: "Android", cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 62.5%; /* 10px */
 }
 
 body {
   background-color: var(--cor0);
   font-family: var(--fonte-padrao);
+  font-size: 1.6rem;
 }
 
 a.externo:after {
@@ -42,13 +47,13 @@ header > h1 {
   font-family: var(--fonte-destaque);
   font-weight: normal;
   margin-bottom: 20px;
-  font-size: 3em;
+  font-size: 4.8rem;
   text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.4);
 }
 
 header > p {
   color: #ffffff;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   font-family: var(--fonte-padrao);
   max-width: 600px;
   padding-left: 10px;
@@ -94,14 +99,12 @@ main h1 {
   color: var(--cor5);
   font-family: var(--fonte-android);
   font-weight: normal;
-  font-size: 1.8em;
+  font-size: 1.8rem;
 }
 
 main h2 {
   font-family: var(--fonte-android);
-  font-size: normal;
   color: var(--cor4);
-  font-size: 1.3em;
   background-image: linear-gradient(to right, var(--cor1), transparent);
   text-indent: 8px;
 }
@@ -110,7 +113,7 @@ main p {
   margin: 15px 0;
   text-align: justify;
   text-indent: 30px;
-  font-size: 1em;
+  font-size: 1.6rem;
   line-height: 2em;
 }
 
@@ -196,10 +199,4 @@ footer a {
 footer a:hover {
   text-decoration: underline;
   color: var(--cor1);
-}
-
-@media (max-width: 450px) {
-  nav > a {
-    font-size: 0.7em;
-  }
 }
