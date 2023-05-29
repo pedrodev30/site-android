@@ -1,3 +1,5 @@
 <h1 align="center">Site Android</h1>
 
-<img src="./.github/presentation.gif">
+<p align="center">
+  <img src="./.github/presentation.gif" width="100%">
+</p>
