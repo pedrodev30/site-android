@@ -19,3 +19,19 @@ Você tem uma máquina  `<Windows / Linux / Mac>`
 
 - HTML
 - CSS
+
+## 🚀 Rodando o projeto
+
+```bash
+# clonar o repositório
+$ git clone https://github.com/pedrodev30/nlw12-spacetime.git
+
+# vai entrar na pasta do projeto
+$ cd site-android
+
+# abrir a pasta do projeto no seu editor
+$ Abra a pasta no Visual Studio Code ou editor de sua Preferência
+
+# Live Server é uma extensão do Vs Code que executa o arquivo no seu navegador
+$ Agora abra o arquivo index.html com o live Server
+```
