@@ -14,3 +14,8 @@ Este é dos desafios do modulo 2 do curso de HTML5 e CSS3 do Curso em Video. A p
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
 Você tem uma máquina  `<Windows / Linux / Mac>`
+
+## 🔧 Tecnologias utilizadas
+
+- HTML
+- CSS
