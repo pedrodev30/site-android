@@ -66,3 +66,7 @@ Como alternativa, consulte a documentação do GitHub em [como criar uma solicit
     </td>
   </tr>
 </table>
+
+## 🎯 Status do projeto
+
+O projeto está finalizado.
