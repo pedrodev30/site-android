@@ -70,3 +70,7 @@ Como alternativa, consulte a documentação do GitHub em [como criar uma solicit
 ## 🎯 Status do projeto
 
 O projeto está finalizado.
+
+## :memo: Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/pedrodev30/site-android/blob/main/LICENSE) para mais detalhes.
